@@ -216,7 +216,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <h1><strong> Osta's </strong></h1>
-					<img src="img/ostasguy.gif">
+					<img src="img/ostasguy.gif" style="margin-bottom: 2em;">
                 </div>
 				<div class="col-lg-5" style="text-align:left;margin-top:1em;"><strong style="margin-left: 2em;font-size: 2em;">Contacts</strong><p>
 				<i class="fa fa-map-marker fa-2x" style="margin-right: 1.9em;"></i>2228 Wealthy St SE East Grand Rapids, MI<p>
