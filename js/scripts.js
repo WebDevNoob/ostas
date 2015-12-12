@@ -28,9 +28,20 @@ $(document).ready(function(){
 		default:
 			break;
 	}
+	displayCheck();
+	$( window ).resize(displayCheck());
 	startRot();
 	$(".col-lg-12.aboutQuarter.reviewsImg").hover(stopRot, startRot);
 });
+
+function displayCheck(){
+	if(!($(window).height() > 575)){
+		$(".ostaLogo").hide();
+	}else{
+		$(".ostaLogo").show();
+	}
+}
+
 
 function startRot(){
 	if(timerId){
@@ -56,5 +67,4 @@ function display(){
 		});
 	}
 }
-
 

@@ -111,98 +111,118 @@
         	<div class="row">
 			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
 				<span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;"><strong>Beverages</strong></span><p></p>
-				<table class="table-responsive table-hover" style="color:#000; text-align:left;"><thead><strong>Wine</strong></thead><tbody>
-				<tr><td>Glass</td><td style="text-align:right;">$5.50</td></tr>
-				<tr><td>Bottle</td><td style="text-align:right;">$22.00</td></tr>
+				<table class="table-responsive table-hover" style="width:100%;"><thead><strong>Wine</strong></thead><tbody>
+				<tr><td>Glass</td><td class="text-right">$5.50</td></tr>
+				<tr><td>Bottle</td><td class="text-right">$22.00</td></tr>
 				</tbody></table>
-				<table class="table-responsive table-hover">
+				<table class="table-responsive table-hover" style="width:100%;">
 				<thead><strong>Beer</strong></thead></tbody>
-				<tr><td>Mike's Hard Lemonade</td><td style="text-align:right;">$2.75</td></tr>	
-				<tr><td>Bottles</td><td style="text-align:right;">$3.90</td></tr>
+				<tr><td>Mike's Hard Lemonade</td><td class="text-right">$2.75</td></tr>	
+				<tr><td>Bottles</td><td class="text-right">$3.90</td></tr>
 				</tbody></table>													
-				<table class="table-responsive table-hover" style="color:#000; text-align:left;"><thead><strong>Non-Alcholic</strong></thead><tbody>
-				<tr><td>Perrier Sparkling Water</td><td style="text-align:right;">$2.10</td></tr>
-				<tr><td>Coffee / Tea</td><td style="text-align:right;">$1.85</td></tr>
-				<tr><td>Mint Tea</td><td style="text-align:right;">$2.50</td></tr>
-				<tr><td>Mango Juice</td><td style="text-align:right;">$1.40</td></tr>
-				<tr><td>We Proudly Serve __ Products</td><td style="text-align:right;">$1.85</td></tr></tbody></table>		
+				<table class="table-responsive table-hover" style="width:100%;"><thead><strong>Non-Alcholic</strong></thead><tbody>
+				<tr><td>Perrier Sparkling Water</td><td class="text-right">$2.10</td></tr>
+				<tr><td>Coffee / Tea</td><td class="text-right">$1.85</td></tr>
+				<tr><td>Mint Tea</td><td class="text-right">$2.50</td></tr>
+				<tr><td>Mango Juice</td><td class="text-right">$1.40</td></tr>
+				<tr><td>We Proudly Serve __ Products</td><td class="text-right">$1.85</td></tr></tbody></table>		
 			</div> 
 
 			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Appetizers</span></strong><p></p>
-			<table class="table-responsive table-hover" style="color:#000; text-align:left;"><tbody>
-				<tr><td>Hommous</td><td style="text-align:right;" >$5.70</td></tr>
-				<tr><td>Baba Ghanouge</td><td style="text-align:right;">$6.25</td></tr>
-				<tr><td>Tabooli</td><td style="text-align:right;">$6.99</td></tr>
-				<tr><td>Lubyee</td><td style="text-align:right;">$6.50</td></tr>
-				<tr><td>Labnee</td><td style="text-align:right;">$6.25</td></tr>
-				<tr><td>Laban</td><td style="text-align:right;">$4.99</td></tr>
-				<tr><td>Fried Kibby</td><td style="text-align:right;">$1.95</td></tr>
-				<tr><td>Falafel Plate</td><td style="text-align:right;">$7.50</td></tr>
-				<tr><td>Grape Leaves</td><td style="text-align:right;">$4.99</td></tr>
-				<tr><td>Sfeeha Meat Pie</td><td style="text-align:right;">$1.55</td></tr>
-				<tr><td>Spinach Pie</td><td style="text-align:right;">$1.55</td></tr>
+			<table class="table-responsive table-hover" style="width:100%;"><tbody>
+				<tr><td>Hommous</td><td class="text-right">$5.70</td></tr>
+				<tr><td>Baba Ghanouge</td><td class="text-right">$6.25</td></tr>
+				<tr><td>Tabooli</td><td class="text-right">$6.99</td></tr>
+				<tr><td>Lubyee</td><td class="text-right">$6.50</td></tr>
+				<tr><td>Labnee</td><td class="text-right">$6.25</td></tr>
+				<tr><td>Laban</td><td class="text-right">$4.99</td></tr>
+				<tr><td>Fried Kibby</td><td class="text-right">$1.95</td></tr>
+				<tr><td>Falafel Plate</td><td class="text-right">$7.50</td></tr>
+				<tr><td>Grape Leaves</td><td class="text-right">$4.99</td></tr>
+				<tr><td>Sfeeha Meat Pie</td><td class="text-right">$1.55</td></tr>
+				<tr><td>Spinach Pie</td><td class="text-right">$1.55</td></tr>
 			</tbody></table>	
 			</div>
 
 <div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Pita Sandwiches</span></strong><p></p>
-			<table class="table-responsive table-hover" style="color:#000; text-align:left;"><tbody>
+			<table class="table-responsive table-hover"  style="width:100%;"><tbody>	
 				<tr><td>Grilled Chicken Tawook</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$10.50</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$11.50</td></tr>
 				<tr><td>Grilled Kafta Kabob</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$10.50</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$11.50</td></tr>
 				<tr><td>Shawarma</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$10.50</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$11.50</td></tr>
 				<tr><td>Falafel</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$10.50</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$11.50</td></tr>
 				<tr><td>Toasted Chicken</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$10.50</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$11.50</td></tr>
 				<tr><td>Hommous</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$10.50</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$11.50</td></tr>
+				<tr><td style="font-size: .75em;" class="text-center">Served with Lebanese Salad:</td><td class="text-right">$10.50</td></tr>
+				<tr><td style="font-size: .75em;" class="text-center">Served With Fatoush: </td><td class="text-right">$11.50</td></tr>
+				<tr><td><p></p></td></tr>
 				<tr><td>Grilled Lamb Kabob</td><td></td></tr>
-				<tr><td>Served with Lebanese Salad:</td><td>$12.95</td></tr>
-				<tr><td>Served With Fatoush: </td><td>$13.95</td></tr>
+				<tr><td style="font-size: .75em;" class="text-center">Served with Lebanese Salad:</td><td class="text-right">$12.95</td></tr>
+				<tr><td style="font-size: .75em;" class="text-center">Served With Fatoush: </td><td class="text-right">$13.95</td></tr>
 			</tbody></table>	
 			</div>
 
 			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
-			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Samplers</span></strong><p></p>
-			<table class="table-responsive table-hover" style="color:#000; text-align:left;"><tbody>
-				<tr><td>Maza I</td><td>$13.95</td></tr>
-				<tr><td>Maza II</td><td>$26.95</td></tr>
-				<tr><td>Sampler</td><td>$9.25</td></tr>
-				<tr><td>Combination Plate</td><td>$10.95</td></tr>
+			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Samplers & Mixed Grill</span></strong><p></p>
+			<table class="table-responsive table-hover" style="width:100%;"><tbody>
+				<tr><td>Maza I</td><td class="text-right">$13.95</td></tr>
+				<tr><td>Maza II</td><td class="text-right">$26.95</td></tr>
+				<tr><td>Sampler</td><td class="text-right">$9.25</td></tr>
+				<tr><td>Combination Plate</td><td class="text-right">$10.95</td></tr>
+				<tr><td>Chicken Tawook and Shawarma</td><td class="text-right">$16.35</td></tr>
+				<tr><td>Chicken Tawook and Kafta Kabob</td><td class="text-right">$16.35</td></tr>	
+				<tr><td>Shawarma and Kafta Kabob</td><td class="text-right">$16.35</td></tr>
+				<tr><td>Chicken Tawook and Lamb Kabob</td><td class="text-right">$21.25</td></tr>
+				<tr><td>Shawarma and Lamb Kabob</td><td class="text-right">$21.25</td></tr>
+				<tr><td>Kafta Kabob and Lamb Kabob</td><td class="text-right">$21.25</td></tr>			
 			</tbody></table>	
 			</div>
 			</div>
+			<p></p>
 			<div class="row">	
 			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
+			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Dinners</span></strong><p></p>
+			<table class="table-responsive table-hover" style="width:100%;"><tbody>
+				<tr><td>Grilled Chicken Tawook</td><td class="text-right">$15.90</td></tr>
+				<tr><td>Grilled Lamb Kabob</td><td class="text-right">$23.99</td></tr>
+				<tr><td>Kafta Kabob</td><td class="text-right">$15.90</td></tr>
+				<tr><td>Shawarma</td><td class="text-right">$15.90</td></tr>
+				<tr><td>Baked Kibby</td><td class="text-right">$16.99</td></tr>
+				<tr><td>Combo I</td><td class="text-right">$21.99</td></tr>
+				<tr><td>Combo II</td><td class="text-right">$17.95</td></tr>
+				<tr><td>Combo III</td><td class="text-right">$21.99</td></tr>
+			</tbody></table>	
+			</div>
+
+			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Vegetarian Dishes</span></strong><p></p>
-			<table class="table-responsive table-hover" style="color:#000; text-align:left;"><tbody>
-				<tr><td>Moudardara</td><td>$13.95</td></tr>
-				<tr><td>Vegetarian Rice</td><td>$26.95</td></tr>
-				<tr><td>Lubyee and Rice</td><td>$9.25</td></tr>
+			<table class="table-responsive table-hover" style="width:100%;"><tbody>
+				<tr><td>Moudardara</td><td class="text-right">$13.95</td></tr>
+				<tr><td>Vegetarian Rice</td><td class="text-right">$26.95</td></tr>
+				<tr><td>Lubyee and Rice</td><td class="text-right">$9.25</td></tr>
 			</tbody></table>	
 			</div>
 
 			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Salads</span></strong><p></p>
-			<table class="table-responsive table-hover" style="color:#000; text-align:left;"><tbody>
-				<tr><td>Lebanese Salad</td><td>$8.50</td></tr>
-				<tr><td>Fatoush Salad</td><td>$9.95</td></tr>
-				<tr><td>Falafel Salad</td><td>$12.25</td></tr>
-				<tr><td>Osta’s Specialty Salad</td><td>$12.25</td></tr>
+			<table class="table-responsive table-hover" style="width:100%;"><tbody>
+				<tr><td>Lebanese Salad</td><td class="text-right">$8.50</td></tr>
+				<tr><td>Fatoush Salad</td><td class="text-right">$9.95</td></tr>
+				<tr><td>Falafel Salad</td><td class="text-right">$12.25</td></tr>
+				<tr><td>Osta’s Specialty Salad</td><td class="text-right">$12.25</td></tr>
+			</tbody></table>	
+			</div>			
+
+			<div class="col-xs-12 col-sm-4 col-md-3" style="color:#000;">
+			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Desserts</span></strong><p></p>
+			<table class="table-responsive table-hover" style="width:100%;"><tbody>
+				<tr><td>Baklawa</td><td class="text-right">$2.50</td></tr>
+				<tr><td class="text-center" style="font-size: .75em;">Walnut</td><td></td></tr>
+				<tr><td class="text-center" style="font-size: .75em;">Cashew</td><td></td></tr>
+				<tr><td class="text-center" style="font-size: .75em;">Pistachio</td><td></td></tr>
 			</tbody></table>	
 			</div>
-
-			
 
 		 </div>
 		</div>

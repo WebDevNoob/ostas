@@ -134,7 +134,7 @@ of those sections to manage the look and feel of the site. */
 .about-section .container{
 	height: 100%;
 	    box-shadow: -1px 1px 5px 4px #E3E3E3;
-
+	margin: auto;
 		overflow: hidden;
 		background-color: #FFF;	
 }
