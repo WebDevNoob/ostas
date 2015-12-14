@@ -29,7 +29,7 @@ $(document).ready(function(){
 			break;
 	}
 	displayCheck();
-	$( window ).resize(displayCheck());
+	$( window ).resize(displayCheck);
 	startRot();
 	$(".col-lg-12.aboutQuarter.reviewsImg").hover(stopRot, startRot);
 });
@@ -37,12 +37,12 @@ $(document).ready(function(){
 function displayCheck(){
 	if(!($(window).height() > 575)){
 		$(".ostaLogo").hide();
+		$(".displayText").show();
 	}else{
 		$(".ostaLogo").show();
+		$(".displayText").hide();
 	}
 }
-
-
 function startRot(){
 	if(timerId){
 		return;

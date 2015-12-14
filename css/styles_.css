@@ -17,8 +17,6 @@ html {
 
 }
 
-
-
 nav.navbar.navbar-default.navbar-fixed-top{
 	background-color: rgba(0,0,0,.75);
 	border-color: rgba(0,0,0,.75);
@@ -30,6 +28,7 @@ nav.navbar.navbar-default.navbar-fixed-top{
 }
 .navbar-header.page-scroll > a:hover{
 	color: #eee;
+	background-color: transparent;
 }
 .collapse.navbar-collapse.navbar-ex1-collapse > ul > li > a{
 	font-size: 1.75em;
@@ -95,12 +94,19 @@ of those sections to manage the look and feel of the site. */
 	width: 25%;
 	border: 3px solid #326431;	
 }
+.displayText{
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Satisfy', cursive;
+	height: 50%
+}
 .blurp--top{
     position: absolute;
     bottom: -1em;
 	width: 100%;
 	left:2vw;
 }
+
 .fa-arrow-down{
 	position: absolute;
 	color:#000;
@@ -121,20 +127,30 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-.about-section{
+.menu-section{
 	padding: 4em;
 	margin:1em auto;
-	width: 100%;
  	background-image: url("../img/background0.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 	background-size: cover;
 }
-.about-section .container{
+.menu-section .container{
 	height: 100%;
-	    box-shadow: -1px 1px 5px 4px #E3E3E3;
+	width: 100%;
+	box-shadow: -1px 1px 5px 4px #E3E3E3;
 	margin: auto;
-		overflow: hidden;
-		background-color: #FFF;	
+	background-color: #FFF;	
 }
+.menu-section .container .row{
+	display: flex;
+}
+
+.contact-section{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	display:table;
+}
+
