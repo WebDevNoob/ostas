@@ -44,13 +44,14 @@ nav.navbar.navbar-default.navbar-fixed-top{
     	display: none;
 	}
 
-.navbar {
+	.navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
 }
-}
+
 
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -146,7 +147,10 @@ of those sections to manage the look and feel of the site. */
 .menu-section .container .row{
 	display: flex;
 }
-
+.popover{
+	width: 100%;
+	max-width:100%;
+}
 .contact-section{
 	text-align: center;
 	width: 100%;

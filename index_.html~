@@ -56,9 +56,6 @@
                         <a class="page-scroll" href="#menu">Menu</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -106,7 +103,7 @@
 			</tbody>
 			</table>
 		</div>
-<svg class="blurp--top" width="192" height="61" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#FFFFFF" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg><a class="page-scroll" href="#about"><i class="fa fa-arrow-down fa-2x" style="color:#000;"></i></a>
+<svg class="blurp--top" width="192" height="61" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#FFFFFF" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg><a class="page-scroll" href="#menu"><i class="fa fa-arrow-down fa-2x" style="color:#000;"></i></a>
      </div>
     </section>
 
@@ -115,112 +112,123 @@
         <div class="container clearfix">  
 			<div class="col-md-4" style="color:#000;">
 				<span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;"><strong>Beverages</strong></span><p></p>
+				<table class="table-responsive table-hover" style="width:100%;height:100%;"><thead><strong>Non-Alcholic</strong></thead><tbody>
+				<tr class="popoverOption" data-content="" data-placement="bottom" data-original-title="Perrier Sparkling Water"><td>Perrier Sparkling Water</td><td class="text-right">$2.10</td></tr>
+				<tr class="popoverOption" data-content="" data-placement="bottom" data-original-title="Coffee / Tea"><td>Coffee / Tea</td><td class="text-right">$1.85</td></tr>
+				<tr class="popoverOption" data-content="" data-placement="bottom" data-original-title="Mint Tea"><td>Mint Tea</td><td class="text-right">$2.50</td></tr>
+				<tr class="popoverOption" data-content="" data-placement="bottom" data-original-title="Mango Juice"><td>Mango Juice</td><td class="text-right">$1.40</td></tr>
+				<tr class="popoverOption" data-content="" data-placement="bottom" d ata-original-title="Pepsi Products"><td>We Proudly Serve Pepsi Products</td><td class="text-right">$1.85</td></tr></tbody></table>
+
 				<table class="table-responsive table-hover" style="width:100%;"><thead><strong>Wine</strong></thead><tbody>
-				<tr><td>Glass</td><td class="text-right">$5.50</td></tr>
-				<tr><td>Bottle</td><td class="text-right">$22.00</td></tr>
+				<tr class="popoverOption" data-content="<strong>Ksara Blanc de Blanc (dry)</strong> This wine is made from a harmonious blend of white grapes grown in the Bekaa Valley of Lebanon.  On the palate it is soft, fresh and refreshing.<br><strong>Ksara Reserve Du Couvent (dry)</strong> This wine originating in the Bekaa Valley of Lebanon resonates with a subtle combination of wood and vanilla tones for a taste that lingers delicately on the palate.<br><strong>Placido Pinot Grigio  (fruit forward)</strong> Delightfully refreshing 100% varietal wine produced exclusively with Pinot Grigio grapes grown in the fames Veneto region of Italy and vinified on the Count Placido estate in Tuscany.<br><strong>Cavit Merlot (silky)</strong> A soft, velvety wine produced from grapes cultivated in the Maipa Valley region of Chili. Supple, rounded, smooth, and luscious flavors and tannins are consistent with premium Merlot.  Beguiling aromas of fruit with accents of herbs with a color of ruby red with violet reflections.<br><strong>Cavit Pinot Noir (delicate)</strong> This silky smooth red is medium-bodied, with well-defined fruit redolent of red berries and cherries and soft, supple tannins.  Delicate and alluring aromas of black cherry.<br><strong>Walnut Crest Chardonnay (dry)</strong> Crisp, fruit forward.  Ripe with fruit, buttery nuances and vanilla. Notes of passion fruit, vanilla, sweet cream, and ripe bananas.<br><strong>Rawson’s Retreat Cabernet Sauvignon</strong> A tasty attack of black currants, wild cherries, loganberries and soft blueberry notes into a greatly balanced mid palate." data-placement="right" data-original-title="Glass of Wine"><td>Glass</td><td class="text-right">$5.50</td></tr>
+				<tr class="popoverOption" data-content="<strong>Ksara Blanc de Blanc (dry)</strong> This wine is made from a harmonious blend of white grapes grown in the Bekaa Valley of Lebanon.  On the palate it is soft, fresh and refreshing.<br><strong>Ksara Reserve Du Couvent (dry)</strong> This wine originating in the Bekaa Valley of Lebanon resonates with a subtle combination of wood and vanilla tones for a taste that lingers delicately on the palate.<br><strong>Placido Pinot Grigio  (fruit forward)</strong> Delightfully refreshing 100% varietal wine produced exclusively with Pinot Grigio grapes grown in the fames Veneto region of Italy and vinified on the Count Placido estate in Tuscany.<br><strong>Cavit Merlot (silky)</strong> A soft, velvety wine produced from grapes cultivated in the Maipa Valley region of Chili. Supple, rounded, smooth, and luscious flavors and tannins are consistent with premium Merlot.  Beguiling aromas of fruit with accents of herbs with a color of ruby red with violet reflections.<br><strong>Cavit Pinot Noir (delicate)</strong> This silky smooth red is medium-bodied, with well-defined fruit redolent of red berries and cherries and soft, supple tannins.  Delicate and alluring aromas of black cherry.<br><strong>Walnut Crest Chardonnay (dry)</strong> Crisp, fruit forward.  Ripe with fruit, buttery nuances and vanilla. Notes of passion fruit, vanilla, sweet cream, and ripe bananas.<br><strong>Rawson’s Retreat Cabernet Sauvignon</strong> A tasty attack of black currants, wild cherries, loganberries and soft blueberry notes into a greatly balanced mid palate." data-placement="right" data-original-title="Bottle of Wine"><td>Bottle</td><td class="text-right">$22.00</td></tr>
 				</tbody></table>
 				<table class="table-responsive table-hover" style="width:100%;">
 				<thead><strong>Beer</strong></thead></tbody>
-				<tr><td>Mike's Hard Lemonade</td><td class="text-right">$2.75</td></tr>	
-				<tr><td>Bottles</td><td class="text-right">$3.90</td></tr>
+				<tr class="popoverOption" data-content="Sweet and tart, it’s lemonade with a kick. 5% AlcoholMike’s<br><br>Hard Cranberry Lemonade:<br>On one hand you’ve got sweet, on the other hand you’ve got tart. This one’s right in the middle." data-placement="right" data-original-title="Mike's Hard Lemonade:"><td>Mike's Hard Lemonade</td><td class="text-right">$2.75</td></tr>	
+				<tr class="popoverOption" data-content="<strong>Alamza:</strong><br>Almaza, the famous pilsner from Lebanon, is the diamond of the Mediterranean brewed under the technical supervision of Heineken.<br><br><strong>Heineken:</strong><br>Light and crisp, clear golden lager.<br><br><strong>Heineken Light:</strong><br>A lighter alternative to original Heineken.<br><br><strong>Heineken Dark:</strong><br>Dark red-brown color with a creamy, malt aroma.<br><br><strong>Coors Light:</strong><br>Basic, clean, unobtrusive American lager that’s refreshing and easy to drink while bringing back memories of our youth.<br><br><strong>Founder’s Pale Ale:</strong><br>Distinctive floral hop aroma and refreshing citrus flavor. It has a slight malty sweetness with a balanced hop finish.<br><br><strong>Bell’s Oberon (Seasonal):</strong><br>An American wheat ale brewed with Saaz hops.<br><br>" data-placement="right" data-original-title="Bottles"><td>Bottles</td><td class="text-right">$3.90</td></tr>
 				</tbody></table>													
-				<table class="table-responsive table-hover" style="width:100%;height:100%;"><thead><strong>Non-Alcholic</strong></thead><tbody>
-				<tr><td>Perrier Sparkling Water</td><td class="text-right">$2.10</td></tr>
-				<tr><td>Coffee / Tea</td><td class="text-right">$1.85</td></tr>
-				<tr><td>Mint Tea</td><td class="text-right">$2.50</td></tr>
-				<tr><td>Mango Juice</td><td class="text-right">$1.40</td></tr>
-				<tr><td>We Proudly Serve __ Products</td><td class="text-right">$1.85</td></tr></tbody></table>		
+						
 			</div> 
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Appetizers</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Hommous</td><td class="text-right">$5.70</td></tr>
-				<tr><td>Baba Ghanouge</td><td class="text-right">$6.25</td></tr>
-				<tr><td>Tabooli</td><td class="text-right">$6.99</td></tr>
-				<tr><td>Lubyee</td><td class="text-right">$6.50</td></tr>
-				<tr><td>Labnee</td><td class="text-right">$6.25</td></tr>
-				<tr><td>Laban</td><td class="text-right">$4.99</td></tr>
-				<tr><td>Fried Kibby</td><td class="text-right">$1.95</td></tr>
-				<tr><td>Falafel Plate</td><td class="text-right">$7.50</td></tr>
-				<tr><td>Grape Leaves</td><td class="text-right">$4.99</td></tr>
-				<tr><td>Sfeeha Meat Pie</td><td class="text-right">$1.55</td></tr>
-				<tr><td>Spinach Pie</td><td class="text-right">$1.55</td></tr>
+				<tr class="popoverOption" data-content="Blended Garbanzo Beans, Tahini, Garlic, and Lemon Garnished with Parsley, Paprika and Extra Virgin Olive Oil" data-placement="bottom" data-original-title="Hommous" ><td>Hommous</td><td class="text-right">$5.70</td></tr>
+				<tr class="popoverOption" data-content="Blended Oven Roasted Eggplant, Tahini, Garlic, and Lemon Garnished with Parsley, Paprika and Extra Virgin Olive Oil" data-placement="bottom" data-original-title="Baba Ghanouge"><td>Baba Ghanouge</td><td class="text-right">$6.25</td></tr>
+				<tr class="popoverOption" data-content="Fresh Minced Parsley, Burghul Wheat, Tomato, and Onion Hand Tossed in Our Extra Virgin Olive Oil and Lemon Vinaigrette" data-placement="bottom" data-original-title="Tabooli"><td>Tabooli</td><td class="text-right">$6.99</td></tr>
+				<tr class="popoverOption" data-content="Green Bean Sauté in Tomato Sauce, Extra Virgin Olive Oil, Tomatoes, Onions, and Garlic" data-placement="bottom" data-original-title="Lubyee"><td>Lubyee</td><td class="text-right">$6.50</td></tr>
+				<tr class="popoverOption" data-content="Lebanese Cheese Dip Blended With Garlic, Mint and Topped With Extra Virgin Olive Oil" data-placement="bottom" data-original-title="Labnee"><td>Labnee</td><td class="text-right">$6.25</td></tr>
+				<tr class="popoverOption" data-content="Lebanese Yogurt Blended with Cucumbers, Mint, and Garlic" data-placement="bottom" data-original-title="Laban" ><td>Laban</td><td class="text-right">$4.99</td></span></tr>
+				<tr class="popoverOption" data-content="Ground Beef and Burghul Wheat Stuffed With Sauté Beef and Onion" data-placement="bottom" data-original-title="Fried Kibby"><td>Fried Kibby</td><td class="text-right">$1.95</td></tr>
+				<tr class="popoverOption" data-content="4 Fava Bean Patties Deep Fried and Garnished With Lettuce, Tomato, Onion, and Tahini" data-placement="bottom" data-original-title="Falafel Plate"><td>Falafel Plate</td><td class="text-right">$7.50</td></tr>
+				<tr class="popoverOption" data-content="4 pieces of Meat or Vegetarian" data-placement="bottom" data-original-title="Grape Leaves" ><td>Grape Leaves</td><td class="text-right">$4.99</td></tr>
+				<tr class="popoverOption" data-content="" data-original-title="Sfeeha Meat Pie" data-placement="bottom" ><td>Sfeeha Meat Pie</td><td class="text-right">$1.55</td></tr>
+				<tr class="popoverOption" data-content="" data-placement="bottom" data-original-title="Spinach Pie"><td>Spinach Pie</td><td class="text-right">$1.55</td></tr>
 			</tbody></table>	
 			</div>
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Pita Sandwiches</span></strong><p></p>
 			<table class="table-responsive table-hover"  style="width:100%;"><tbody>	
-				<tr><td>Grilled Chicken Tawook</td><td></td></tr>
-				<tr><td>Grilled Kafta Kabob</td><td></td></tr>
-				<tr><td>Shawarma</td><td></td></tr>
-				<tr><td>Falafel</td><td></td></tr>
-				<tr><td>Toasted Chicken</td><td></td></tr>
-				<tr><td>Hommous</td><td></td></tr>
+				<tr class="popoverOption" data-content="Chicken Breast Marinated in Lemon and Garlic on Pita with Garlic Sauce and Onion" data-placement="bottom" data-original-title="Grilled Chicken Tawook"><td>Grilled Chicken Tawook</td><td></td></tr>
+				<tr class="popoverOption" data-content="Ground Lamb and Beef Blended With Parsley and Onion on Pita with Hommous, Tomato and Onion" data-placement="bottom" data-original-title="Grilled Kafta Kabob" ><td>Grilled Kafta Kabob</td><td></td></tr>
+				<tr class="popoverOption" data-content="Thin slices of Tender Beef Marinated in Lebanese Spices and Slow Roasted on Pita With Tahini, Tomato and Onion" data-placement="bottom" data-original-title="Shawarma" ><td>Shawarma</td><td></td></tr>
+				<tr class="popoverOption" data-content="Seasoned and Fried Fava Bean Patties on Pita with Tahini, Lettuce, Tomato, and Onion" data-placement="bottom" data-original-title="Falafel" ><td>Falafel</td><td></td></tr>
+				<tr class="popoverOption" data-content="Chicken and Garlic Sauce with Lettuce and Tomato on Grill-top Toasted Pita Bread" data-placement="bottom" data-original-title="Toasted Chicken" ><td>Toasted Chicken</td><td></td></tr>
+				<tr class="popoverOption" data-content="A Generous Portion of Hommous on Pita with Lettuce, Cucumber, Tomato, and Onion" data-placement="bottom" data-original-title="Hommous" ><td>Hommous</td><td></td></tr>
 				<tr><td style="font-size: .75em;" class="text-center">Served with Lebanese Salad:</td><td class="text-right">$10.50</td></tr>
 				<tr><td style="font-size: .75em;" class="text-center">Served With Fatoush: </td><td class="text-right">$11.50</td></tr>
 				<tr><td><p></p></td></tr>
-				<tr><td>Grilled Lamb Kabob</td><td></td></tr>
+				<tr class="popoverOption" data-content="Moist and Tender Lamb Marinated Lightly in Red Wine on Pita with Hommous, Tomato and Onion" data-placement="bottom" data-original-title="Grilled Lamb Kabob" ><td>Grilled Lamb Kabob</td><td></td></tr>
 				<tr><td style="font-size: .75em;" class="text-center">Served with Lebanese Salad:</td><td class="text-right">$12.95</td></tr>
 				<tr><td style="font-size: .75em;" class="text-center">Served With Fatoush: </td><td class="text-right">$13.95</td></tr>
 			</tbody></table>	
 			</div>
+
 			  <div class="clearfix visible-block"></div>
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Dinners</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Grilled Chicken Tawook</td><td class="text-right">$15.90</td></tr>
-				<tr><td>Grilled Lamb Kabob</td><td class="text-right">$23.99</td></tr>
-				<tr><td>Kafta Kabob</td><td class="text-right">$15.90</td></tr>
-				<tr><td>Shawarma</td><td class="text-right">$15.90</td></tr>
-				<tr><td>Baked Kibby</td><td class="text-right">$16.99</td></tr>
-				<tr><td>Combo I</td><td class="text-right">$21.99</td></tr>
-				<tr><td>Combo II</td><td class="text-right">$17.95</td></tr>
-				<tr><td>Combo III</td><td class="text-right">$21.99</td></tr>
+				<tr class="popoverOption" data-content="Chicken Breast Marinated in Lemon and Garlic Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread " data-placement="bottom" data-original-title="Grilled Chicken Tawook"><td>Grilled Chicken Tawook</td><td class="text-right">$15.90</td></tr>
+				<tr class="popoverOption" data-content="Moist and Tender Lamb Lightly Marinated in Red Wine Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Grilled Lamb Kabob"><td>Grilled Lamb Kabob</td><td class="text-right">$23.99</td></tr>
+				<tr class="popoverOption" data-content="Ground Lamb and Beef Blended With Fresh Minced Parsley and Onion Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Kafta Kabob"><td>Kafta Kabob</td><td class="text-right">$15.90</td></tr>
+				<tr class="popoverOption" data-content="Thin Slices of Tender Beef Marinated in Lebanese Spices and Slow Roasted Served with Lebanese Salad, Rice, Side of Tahini and Pita Bread" data-placement="bottom" data-original-title="Shawarma"><td>Shawarma</td><td class="text-right">$15.90</td></tr>
+				<tr class="popoverOption" data-content="Ground Lamb and Beef Hand Mixed With Burghul Wheat and Stuffed With Sauté Beef and Onion and Served with Lebanese Salad, Side of Laban, and Pita Bread" data-placement="bottom" data-original-title="Baked Kibby"><td>Baked Kibby</td><td class="text-right">$16.99</td></tr>
+				<tr class="popoverOption" data-content="Chicken Tawook, Kafta Kabob and Lamb Kabob Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Combo I"><td>Combo I</td><td class="text-right">$21.99</td></tr>
+				<tr class="popoverOption" data-content="Chicken Tawook, Shawarma and Kafta Kabob Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Combo II"><td>Combo II</td><td class="text-right">$17.95</td></tr>
+				<tr class="popoverOption" data-content="Chicken Tawook, Shawarma, and Lamb Kabob Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Combo III"><td>Combo III</td><td class="text-right">$21.99</td></tr>
 			</tbody></table>	
 			</div>
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;"> Mixed Grill</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Chicken Tawook and Shawarma</td><td class="text-right">$16.35</td></tr>
-				<tr><td>Chicken Tawook and Kafta Kabob</td><td class="text-right">$16.35</td></tr>	
-				<tr><td>Shawarma and Kafta Kabob</td><td class="text-right">$16.35</td></tr>
-				<tr><td>Chicken Tawook and Lamb Kabob</td><td class="text-right">$21.25</td></tr>
-				<tr><td>Shawarma and Lamb Kabob</td><td class="text-right">$21.25</td></tr>
-				<tr><td>Kafta Kabob and Lamb Kabob</td><td class="text-right">$21.25</td></tr>	
+				<tr class="popoverOption" data-content="Served With Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Chicken Tawook and Shawarma"><td>Chicken Tawook and Shawarma</td><td class="text-right">$16.35</td></tr>
+				<tr class="popoverOption" data-content="Served With Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Chicken Tawook and Kafta Kabob"><td>Chicken Tawook and Kafta Kabob</td><td class="text-right">$16.35</td></tr>	
+				<tr class="popoverOption" data-content="Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Shawarma and Kafta Kabob"><td>Shawarma and Kafta Kabob</td><td class="text-right">$16.35</td></tr>
+				<tr class="popoverOption" data-content="Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Chicken Tawook and Lamb Kabob"><td>Chicken Tawook and Lamb Kabob</td><td class="text-right">$21.25</td></tr>
+				<tr class="popoverOption" data-content="Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Shawarma and Lamb Kabob"><td>Shawarma and Lamb Kabob</td><td class="text-right">$21.25</td></tr>
+				<tr class="popoverOption" data-content="Served with Lebanese Salad, Rice, Side of Hommous and Pita Bread" data-placement="bottom" data-original-title="Kafta Kabob and Lamb Kabob"><td>Kafta Kabob and Lamb Kabob</td><td class="text-right">$21.25</td></tr>	
 			</tbody></table>	
 			</div>
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Samplers</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Maza I</td><td class="text-right">$13.95</td></tr>
-				<tr><td>Maza II</td><td class="text-right">$26.95</td></tr>
-				<tr><td>Sampler</td><td class="text-right">$9.25</td></tr>
-				<tr><td>Combination Plate</td><td class="text-right">$10.95</td></tr>		
+				<tr class="popoverOption" data-content="Hommous or Baba Ghanouge, 2 Vegetarian Grape Leaves, 2 Falafel, Lebanese Salad and Pita" data-placement="bottom" data-original-title="Maza I"><td>Maza I</td><td class="text-right">$13.95</td></tr>
+				<tr class="popoverOption" data-content="Hommous and Baba Ghanouge, 2 Vegetarian Grape Leaves, Tabooli, Lubyee, 2 Falafel, Lebanese Salad, and Pita  " data-placement="bottom" data-original-title="Maza II"><td>Maza II</td><td class="text-right">$26.95</td></tr>
+				<tr class="popoverOption" data-content="Choose Any 3…Hommous, Baba Ghanouge, Tabooli, Labnee. Served with Pita" data-placement="bottom" data-original-title="Sampler"><td>Sampler</td><td class="text-right">$9.25</td></tr>
+				<tr class="popoverOption" data-content="2 Meat Grape Leaves, 2 Meat Pies, Chicken Kafta, Hommous and Pita" data-placement="bottom" data-original-title="Combination Plate"><td>Combination Plate</td><td class="text-right">$10.95</td></tr>		
 			</tbody></table>	
 			</div>
-			<div class="clearfix visible-block"></div>
+
+			 <div class="clearfix visible-block"></div>
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Vegetarian Dishes</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Moudardara</td><td class="text-right">$13.95</td></tr>
-				<tr><td>Vegetarian Rice</td><td class="text-right">$26.95</td></tr>
-				<tr><td>Lubyee and Rice</td><td class="text-right">$9.25</td></tr>
+				<tr class="popoverOption" data-content="Lentils and Rice Sauté in Extra Virgin Olive Oil and Onion. Served Aside Our Lebanese Salad" data-placement="top" data-original-title="Moudardara"><td>Moudardara</td><td class="text-right">$13.95</td></tr>
+				<tr class="popoverOption" data-content="White Rice Sauté in Tomato Sauce, Extra Virgin Olive Oil, and Lemon With Fresh Tomato, Parsley, and Onion. Served Aside our Lebanese Salad" data-placement="top" data-original-title="Vegetarian Rice"><td>Vegetarian Rice</td><td class="text-right">$26.95</td></tr>
+				<tr class="popoverOption" data-content="Green Bean Sauté in Tomato Sauce, Extra Virgin Olive Oil, Fresh Tomato, Onion, and Garlic. Served with White Rice and a Lebanese Salad" data-placement="top" data-original-title="Lubyee and Rice"><td>Lubyee and Rice</td><td class="text-right">$9.25</td></tr>
 			</tbody></table>	
 			</div>
 
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Salads</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Lebanese Salad</td><td class="text-right">$8.50</td></tr>
-				<tr><td>Fatoush Salad</td><td class="text-right">$9.95</td></tr>
-				<tr><td>Falafel Salad</td><td class="text-right">$12.25</td></tr>
-				<tr><td>Osta’s Specialty Salad</td><td class="text-right">$12.25</td></tr>
+				<tr class="popoverOption" data-content="Crisp Romaine Lettuce, Tomato, Cucumber and Parsley Hand Tossed in Osta’s Homemade Extra Virgin Olive Oil and Lemon Vinaigrette Dressing" data-placement="bottom" data-original-title="Lebanese Salad"><td>Lebanese Salad</td><td class="text-right">$8.50</td></tr>
+				<tr class="popoverOption" data-content="Crisp Romaine Lettuce, Tomato, Cucumber Parsley and Toasted Pita Chips Hand Tossed in Our More “Zesty” Homemade Dressing" data-placement="top" data-original-title="Fatoush Salad"><td>Fatoush Salad</td><td class="text-right">$9.95</td></tr>
+				<tr class="popoverOption" data-content="Our Lebanese Salad Topped With 3 Falafel and a Side of Tahini" data-placement="top" data-original-title="Falafel Salad"><td>Falafel Salad</td><td class="text-right">$12.25</td></tr>
+				<tr class="popoverOption" data-content="Lebanese Salad Topped With Your Choice of Meat…Chicken, Shawarma, or Kafta" data-placement="top" data-original-title="Osta’s Specialty Salad"><td>Osta’s Specialty Salad</td><td class="text-right">$12.25</td></tr>
 			</tbody></table>	
 			</div>			
+
 			<div class="col-md-4" style="color:#000;">
 			<strong><span style="font-family: 'Satisfy', cursive;font-size: 1.5em;text-decoration: underline;">Desserts</span></strong><p></p>
 			<table class="table-responsive table-hover" style="width:100%;"><tbody>
-				<tr><td>Baklawa</td><td class="text-right">$2.50</td></tr>
+				<tr class="popoverOption" data-content="" data-placement="top" data-original-title="Baklawa"><td>Baklawa</td><td class="text-right">$2.50</td></tr>
 				<tr><td class="text-center" style="font-size: .75em;">Walnut</td><td></td></tr>
 				<tr><td class="text-center" style="font-size: .75em;">Cashew</td><td></td></tr>
 				<tr><td class="text-center" style="font-size: .75em;">Pistachio</td><td></td></tr>
@@ -246,9 +254,9 @@
 
 					<table class="table-responsive" style="margin:auto;">	
 					<tbody><tr><th><i class="fa fa-clock-o fa-2x" style="margin-right:1em;"></i></th>
-				<td style="text-align:left;">Tuesday-Friday </td><td></td><td style="text-align:right;">11:00am-9:00pm</td></tr>
-					<tr><td></td><td style="text-align:left;">Saturday </td><td></td><td style="text-align:right;">4:00pm-9:00pm</td></tr>
-					<tr><td></td><td style="text-align:left;">Sunday-Monday </td><td></td><td style="text-align:right;">Closed</td></tr></tbody></table>
+				<td style="text-align:left;">Tuesday-Friday </td><td style="text-align:right;">11:00am-9:00pm</td></tr>
+					<tr><td></td><td style="text-align:left;">Saturday </td><td style="text-align:right;">4:00pm-9:00pm</td></tr>
+					<tr><td></td><td style="text-align:left;">Sunday-Monday </td><td style="text-align:right;">Closed</td></tr></tbody></table>
 <br><div class="social-bar" style="margin:auto;">
               			<a href="#" class="fa fa-instagram fa-2x" title="" data-original-title="Instagram"></a>
               			<a href="#" class="fa fa-vimeo-square fa-2x" title="" data-original-title="Vimeo"></a>

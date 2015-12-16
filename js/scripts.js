@@ -28,10 +28,19 @@ $(document).ready(function(){
 		default:
 			break;
 	}
+//Setup
 	displayCheck();
-	$( window ).resize(displayCheck);
 	startRot();
+	$('.popoverOption').popover({ html : true });
+//Events	
 	$(".col-lg-12.aboutQuarter.reviewsImg").hover(stopRot, startRot);
+	$(window).resize(displayCheck());
+	$('table').on('mouseenter', 'tr', function() {
+    	$(this).popover('show');
+	});
+	$('table').on('mouseleave', 'tr', function() {
+    	$(this).popover('hide');    
+	});
 });
 
 function displayCheck(){
@@ -41,6 +50,9 @@ function displayCheck(){
 	}else{
 		$(".ostaLogo").show();
 		$(".displayText").hide();
+	}
+	if(!($(window).width() > 990)){
+		$('.popoverOption').popover({ placement : 'bottom', html: true });
 	}
 }
 function startRot(){

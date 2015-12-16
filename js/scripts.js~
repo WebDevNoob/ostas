@@ -28,17 +28,31 @@ $(document).ready(function(){
 		default:
 			break;
 	}
+//Setup
+	$('.popoverOption').popover({ html : true });
 	displayCheck();
-	$( window ).resize(displayCheck);
 	startRot();
+//Events	
 	$(".col-lg-12.aboutQuarter.reviewsImg").hover(stopRot, startRot);
+	$(window).resize(displayCheck());
+	$('table').on('mouseenter', 'tr', function() {
+    	$(this).popover('show');
+	});
+	$('table').on('mouseleave', 'tr', function() {
+    	$(this).popover('hide');    
+	});
 });
 
 function displayCheck(){
 	if(!($(window).height() > 575)){
 		$(".ostaLogo").hide();
+		$(".displayText").show();
 	}else{
 		$(".ostaLogo").show();
+		$(".displayText").hide();
+	}
+	if(!($(window).width() > 990)){
+		$('.popoverOption').popover({ placement : 'bottom' });
 	}
 }
 function startRot(){
