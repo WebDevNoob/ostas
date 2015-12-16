@@ -1,70 +1,35 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
 body {
-overflow-x: hidden; 
+	 width: 100%;
+   	 height: 100%;
+	
 }
-.navbar-brand{
+
+html {
+    width: 100%;
+    height: 100%;
+	overflow-x:hidden;
+
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+	background-color: rgba(0,0,0,.75);
+	border-color: rgba(0,0,0,.75);
+}
+.navbar-header.page-scroll > a{
+	font-size: 1.5em;
+	font-family: 'Satisfy', cursive;
 	color: #fff;
 }
-.navbar-brand:hover{
+.navbar-header.page-scroll > a:hover{
 	color: #eee;
+	background-color: transparent;
 }
-#page-top > nav{
-	background-color: rgba(0,0,0,.75);
-
-}
-a > i{
-	color: rgba(255,255,255,.75);
-}
-.intro-bottom{
-	width: 100%;
-	height: 1.5em;
-	position: absolute;
-    bottom: 0;
-    left: 0;
-	background-color: rgba(255,255,255,1);
-	z-index: 10;
-}
-
-.intro-section .blurp--top{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -96px;
-    margin-top: -35px;
-    z-index: 10;
-}
-.intro-section .fa-arrow-down{
-	color: #000;
-	position: absolute;
-	top: 100%;
-	left: 50%;
-    margin-left: -12.5px;
-    margin-top: -30px;
-	z-index: 15;
-	opacity: .75;
-	transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -o-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-.fa-arrow-down:hover{
-	opacity: 1;
-}
-.col-lg-offset-3.blurb{
-	color: #000;
-	display: none;
-	font-size: 1.5em;
-	font-family: 'Satisfy', cursive;	
-
-}
-.col-lg-offset-3.blurb > div{
-	font-size: 1.75em;
-	font-family: 'Roboto Slab', serif;	
-}
-
-.col-lg-offset-3.blurb:first-of-type{
-	display: block;
-}
-
 .collapse.navbar-collapse.navbar-ex1-collapse > ul > li > a{
 	font-size: 1.75em;
 	color: #fff;
@@ -74,103 +39,76 @@ a > i{
 	color: #eee;
 }
 
-.displayName{
-	font-family: 'Satisfy', cursive;
-	font-size: 6em;
+@media (min-width: 768px;) { 
+	.navbar-toggle {
+    	display: none;
+	}
+
+	.navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+	background-image: url("../img/background1.jpg");
+	background-repeat: no-repeat;
+    background-position: center;	
+    text-align: center;
 	color: #fff;
+	font-size: .75em;
+	height: 100%;
+	width: 102%;
+}
+.intro-section .container{
+	padding-top: 6em;
+	height: 100%;
+	overflow: auto;
+
+}
+.intro-section .container .row:nth-child(2){
+	padding-top: 3em;
+}
+
+.ostaLogo{
+	display: flex;
+  	justify-content: center;
+	margin:auto;
+	margin-top:2em;
+}
+.ostaLeft{
+	align-self: center;
+	width: 25%;
+	border: 3px solid #326431;
+}
+.ostaRight{
+	align-self: center;
+	float: right;
+	width: 25%;
+	border: 3px solid #326431;	
 }
 .displayText{
-
 	color: #fff;
 	font-size: 2em;
 	font-family: 'Satisfy', cursive;
 	height: 50%
 }
-.dow{
-	font-weight: bold;
-	font-size: 1.5em;
-	background-color: rgba(50,100,49,.65);
-							
-}
-.fancyBreak{
-	display: inline;
-	
-}
-
-.left-line{
-	position: absolute;
-	top: 80%;
-	width: 25%;
-	border: 3px solid #326431;
-	left: 0;
-
-}
-
-.fancyStar{
-	position: relative;
-	top: .5em;
-	color: #326431;	
-	margin-right: .5em;
-	z-index: 9;
-	height: 100%;
-	width: 100%;	
-}
-.right-line{
-	position: absolute;
-	top: 80%;
-	width: 25%;
-	border: 3px solid #326431;	
-	right: 0;
-}
-
-.intro-section {
-    height: 100%;
-    padding-top: 10em;
-    text-align: center;
-    background-image: url("../img/background1.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
-	
-}
-.intro-section .container{
-	display: none;	
-	height: 100%;
+.blurp--top{
+    position: absolute;
+    bottom: -1em;
 	width: 100%;
+	left:2vw;
 }
-.col-lg-4.hours{
-	color: #fff;
-	font-size: .75em;
 
-
-}
-.about-section {
-    margin-top: 4em;
-    text-align: center;
-    background: #FFF;
-    height: 100%;
-    z-index: 11;
-	margin-bottom: 3em;
-    background-image: url("../img/background0.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-	background-size: cover;
-	
-}
-.reviewContainer{
-	    box-shadow: -1px 1px 5px 4px #E3E3E3;
-		max-height: 32em;
-		height: 32em; 
-		overflow: hidden;
-		background-color: #FFF;
-}
-.col-lg-12.aboutTitle{
-	padding-top: 3em;
-	padding-bottom: 2em;
-}
-.page-scroll.about .fa-arrow-down{
+.fa-arrow-down{
 	position: absolute;
 	color:#000;
 	z-index: 15;
@@ -179,116 +117,44 @@ a > i{
    -moz-transition: opacity .25s ease-in-out;
    -o-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-	margin-top: 1.5em;
-	left: 49%;
-}
-.about-section .blurp--top{
-	z-index: 10;
-	margin-top: 2.5em;
-}
-
-.aboutQuarter{
-	margin-top: 1em;
-	height: 100%;
-	width:100%;
-	float: left;
-	margin-bottom: 2em;
-}
-.aboutQuarter .etg{
-	margin-top: 1.25em;
-}
-
-.reviewsImg .shrink{
+	bottom: 1em;
 	width: 100%;
-	text-align: left;
-	padding-left: 1em;
+	left:2vw;
 }
 
-#intro > div.container > div:nth-child(4) > div{
-	color: #fff;
-	font-family: 'Satisfy', cursive;
-
+.dow{
+	font-weight: bold;
+	background-color: rgba(50,100,49,.65);						
 }
 
-.menu-section {
-	height: 100%;
-    text-align: center;
-	padding-top: 2.2em;
-	color: #fff;
-	background-image: url("../img/aboutBack.jpg");
+
+.menu-section{
+	padding: 4em;
+	margin:1em auto;
+ 	background-image: url("../img/background0.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 	background-size: cover;
 }
 .menu-section .container{
-	margin-top: .75em;
 	height: 100%;
+	width: 100%;
+	box-shadow: -1px 1px 5px 4px #E3E3E3;
+	margin: auto;
+	background-color: #FFF;	
+}
+.menu-section .container .row{
+	display: flex;
+}
+.popover{
+	width: 100%;
+	max-width:100%;
+}
+.contact-section{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	display:table;
+}
 
-}
-.menu-section .col-lg-5{
-	font-size: 1.5em;
-	color: #FFF;
-	margin-top: 2em;
-}
-.triangle{
-	display: block;
-    width: 0;
-    border-left: 13px solid transparent;
-    border-right: 13px solid transparent;
-    border-top-width: 13px;
-    border-top-style: solid;
-    border-top-color: inherit;
-    z-index: 3;
-	color: rgba(0,0,0,.75);
-	margin-left: 50%;
-}
-.menu-section .menuTitle{
-	width:100%;
-	background-color: rgba(0,0,0,.75);
-	height: 5em;
-	position: relative;
-	z-index: 10;
-}
-.page-scroll.menu .fa-arrow-down{
-	position: relative;
-	color:#000;
-	z-index: 15;
-	opacity: .75;
-	transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -o-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-	top: -1.8em;
-	right: 3.36em;
-	
-	
-}
-.menu-section .blurp--top{
-	position: relative;
-	top: -1.32em;
-	left: 1em;
-}
-.row.menu1{
-	background-color: rgba(0,0,0,.40);
-}
-.contact-section {
-    text-align: center;
-    background: #FFF;
-}
-.social-bar{
-	display: inline-block;
-}
-.social-bar a{
-    color: #303030;
-    text-decoration: none;
-}
-.contact-section a:hover{
-	color:#000;
-}
-.lebanon-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #FFF;
-}

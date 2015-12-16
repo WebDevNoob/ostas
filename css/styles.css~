@@ -280,9 +280,7 @@ a > i{
 	display: inline-block;
 }
 .social-bar a{
-	color: #000;
-}
-.social-bar a:link{
+    color: #303030;
     text-decoration: none;
 }
 .contact-section a:hover{

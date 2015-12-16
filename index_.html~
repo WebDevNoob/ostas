@@ -258,14 +258,14 @@
 					<tr><td></td><td style="text-align:left;">Saturday </td><td style="text-align:right;">4:00pm-9:00pm</td></tr>
 					<tr><td></td><td style="text-align:left;">Sunday-Monday </td><td style="text-align:right;">Closed</td></tr></tbody></table>
 <br><div class="social-bar" style="margin:auto;">
-              			<a href="#" class="fa fa-instagram fa-2x" title="" data-original-title="Instagram"></a>
-              			<a href="#" class="fa fa-vimeo-square fa-2x" title="" data-original-title="Vimeo"></a>
-             			<a href="#" class="fa fa-youtube-square fa-2x" title="" data-original-title="Youtube"></a>
-              			<a href="#" class="fa fa-tumblr-square fa-2x" title="" data-original-title="Tumblr"></a>
-              			<a href="#" class="fa fa-facebook-square fa-2x" title="" data-original-title="Facebook"></a>
-              			<a href="#" class="fa fa-linkedin-square fa-2x" title="" data-original-title="LinkedIn"></a>
-              			<a href="#" class="fa fa-pinterest-square fa-2x" title="" data-original-title="Pinterest"></a>
-              			<a href="#" class="fa fa-google-plus-square fa-2x" title="" data-original-title="Google+"></a>
+              			<a href="#" class="fa fa-instagram fa-2x" title="" data-original-title="Instagram" style="text-decoration: none;"></a>
+              			<a href="#" class="fa fa-vimeo-square fa-2x" title="" data-original-title="Vimeo" style="text-decoration: none;"></a>
+             			<a href="#" class="fa fa-youtube-square fa-2x" title="" data-original-title="Youtube" style="text-decoration: none;"></a>
+              			<a href="#" class="fa fa-tumblr-square fa-2x" title="" data-original-title="Tumblr" style="text-decoration: none;"></a>
+              			<a href="#" class="fa fa-facebook-square fa-2x" title="" data-original-title="Facebook" style="text-decoration: none;"></a>
+              			<a href="#" class="fa fa-linkedin-square fa-2x" title="" data-original-title="LinkedIn" style="text-decoration: none;"></a>
+              			<a href="#" class="fa fa-pinterest-square fa-2x" title="" data-original-title="Pinterest" style="text-decoration: none;"></a>
+              			<a href="#" class="fa fa-google-plus-square fa-2x" title="" data-original-title="Google+" style="text-decoration: none;"></a>
 </div>
 
 				</div>
